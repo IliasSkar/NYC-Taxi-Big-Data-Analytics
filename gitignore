@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data
+data/
+datasets/
+*.csv
+*.parquet
+
+# Spark-generated files
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+_committed_*
+_started_*
+temporary/
+.checkpoint/
+checkpoints/
+
+# Local outputs / generated results
+results/
+outputs/
+output/
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
